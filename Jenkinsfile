@@ -4,7 +4,11 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                echo 'Testing and learning about Jenkins'
+                sh '''
+                
+                    echo Testing and learning about Jenkins
+
+                '''
             }
         }
     }
